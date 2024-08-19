@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    background-color: #081b31;
+    color: #fff;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+.choice {
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.choice:hover {
+    background-color: #081b31;
+    cursor: pointer;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 5rem;
+    font-size: 2rem;
+}
+
+#user-score, #comp-score {
+    font-size: 4rem;
+}
+
+.msg-container {
+    margin-top: 3rem;
+}
+
+#msg {
+    background-color: #081b31;
+    color: #fff;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.restart {
+    margin-top: 60px;
+    background-color: rgb(6, 179, 205);
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.restart:hover {
+    background-color: rgb(34, 132, 162);
+}
+
+h3 {
+    font-size: xx-large;
+}
+
+@media screen and (max-width: 555px) {
+    h1 {
+        height: 2rem;
+        line-height: 2rem;
+    }
+
+    h3 {
+        font-size: x-large;
+        margin-top: 20px;
+    }
+
+    .choice {
+        height: 100px;
+        width: 100px;
+    }
+
+    img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .choices {
+        gap: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .score-board {
+        margin-top: 3rem;
+        gap: 4.5rem;
+        font-size: 2rem;
+    }
+    
+    #user-score, #comp-score {
+        font-size: 2rem;
+    }
+    
+    .msg-container {
+        margin-top: 3rem;
+    }
+
+    #msg {        
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+    }
+    
+    .restart {
+        margin-top: 50px;
+        width: 100px;
+        height: 40px;
+        border-radius: 0.5rem;
+        font-size: 1rem;
+    }
+    
+}
